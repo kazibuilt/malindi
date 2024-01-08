@@ -32,10 +32,30 @@
       console.log('Analytics Accepted');
    });
 </script>
+<style>
+   html {
+       opacity: 0;
+       overflow-x: hidden;
+   }
+</style>
+
+<link href="/assets/stylesheets/index.css" rel="stylesheet" />
+
+<script src="/imgix.js"></script>
+
+
+<script>
+   imgix.config.host = 'assets.imgix.net';
+   imgix.config.useHttps = false;
+</script>
+<script src="/assets/javascripts/index.js"></script>
+<script src="/assets/javascripts/calculator/bundle.js" defer="defer"></script>
+<script src="/assets/javascripts/contact/bundle.js" defer="defer"></script>
+
 
    </head>
 
-   <body data-barba="wrapper" data-page-transition="not-active" data-links-no-hover="not-active" data-navigation-status="not-active" data-credits-status="not-active" data-whatsapp-status="not-active" data-scrolling-started="false" data-scrolling-direction="down" data-theme-page="light" data-theme-nav="dark" data-bg-nav="transparent">
+   <body class="backyard" data-barba="wrapper" data-page-transition="not-active" data-links-no-hover="not-active" data-navigation-status="not-active" data-credits-status="not-active" data-whatsapp-status="not-active" data-scrolling-started="false" data-scrolling-direction="down" data-theme-page="light" data-theme-nav="dark" data-bg-nav="transparent">
       <div class="loading-container">
          <div class="loading-screen">
             <div class="loading-logo">
@@ -982,6 +1002,918 @@
       </div>
    </div>
 </section>
+
+<div class="slides" style="overflow-x: hidden;">
+   <div class="slide visible intro">
+       
+<div class="intro-container">
+   <div class="spacer-150 m-spacer-100"></div>
+   <div class="spacer-32 m-spacer-0"></div>
+   <h1 class="color-text-100">
+       Backyard
+       <div class="intro-elevation" style="width: calc(0.9em * 120 / 55)">
+           <img srcset="/assets/images/backyard/intro-studio/intro-studio-400.webp 768w, /assets/images/backyard/intro-studio/intro-studio-800.webp" alt="Dark bronze studio Backyard" style="left: calc(-0.9em * 120 / 65 * 0.23)" class="loaded">
+       </div>
+       is<br class="mobile"> the<br>
+       refreshingly<br class="mobile">
+       <div class="intro-elevation mobile" style="width: calc(0.9em * 135 / 55);">
+           <img srcset="/assets/images/backyard/intro-onebed/intro-onebed-400.webp 768w, /assets/images/backyard/intro-onebed/intro-onebed-800.webp" alt="Bone white one bedroom Backyard" style="left: calc(-0.9em * 150 / 65 * 0.18)" class="loaded">
+       </div>
+       simple, fully<br class="mobile"><br>
+       customizable,
+       <div class="intro-elevation desktop" style="width: calc(0.9em * 135 / 55); transform: translateX(-0.125em);">
+           <img srcset="/assets/images/backyard/intro-onebed/intro-onebed-400.webp 768w, /assets/images/backyard/intro-onebed/intro-onebed-800.webp" alt="Bone white one bedroom Backyard" style="left: calc(-0.9em * 150 / 65 * 0.08)" class="loaded">
+       </div>
+       all-<br class="mobile">new<br>
+       <div class="intro-elevation mobile" style="width: calc(0.9em * 250 / 75)">
+           <img srcset="/assets/images/backyard/intro-twobed/intro-twobed-400.webp 768w, /assets/images/backyard/intro-twobed/intro-twobed-800.webp" alt="Evergreen two bedroom Backyard" style="left: calc(-0.9em * 250 / 75 * 0.15); height: 0.845em; top: -0.75em" class="loaded">
+       </div>
+       ADU<br class="mobile">
+       <div class="intro-elevation desktop" style="width: calc(0.9em * 250 / 75)">
+           <img srcset="/assets/images/backyard/intro-twobed/intro-twobed-400.webp 768w, /assets/images/backyard/intro-twobed/intro-twobed-800.webp" alt="Evergreen two bedroom Backyard" style="left: calc(-0.9em * 250 / 75 * 0.15); height: 0.845em; top: -0.75em" class="loaded">
+       </div>
+       from Samara.
+   </h1>
+</div>
+
+
+       <div class="intro-cta">
+           <div class="spacer-64"></div>
+           <h2 class="type-36 m-type-24-light">
+               We handle everything, from permits to installation.
+           </h2>
+           <h2 class="type-36 m-type-24-light color-text-40">
+               Available now in California.
+           </h2>
+           <div class="spacer-24 m-spacer-32"></div>
+           <div class="not-in-ca type-15 m-type-14 color-text-40">
+               Not in california?
+               <a onclick="Contact.show({ page: 'expand' })" class="color-text-60">
+                   Tell us where to expand next
+                   <img src="/assets/images/icons/chevron-mini-grey.svg" width="5" height="8" alt="→" loading="eager">
+               </a>
+           </div>
+           <div class="spacer-120 m-spacer-64"></div>
+           <div class="spacer-24 m-spacer-0"></div>
+       </div>
+   </div>
+
+   <div class="slide intro-carousel-new">
+   <div class="intro-carousel-container">
+       <div class="infinite-slideshow" data-init="true" style="">
+           <div class="infinite-slideshow-spacer">
+               <div class="infinite-slideshow-item" style="transform: translate3d(40470px, 0px, 0px);">
+                   <img alt="Two bedroom" srcset="
+                           /assets/images/backyard/hero-twobed-portrait/hero-twobed-portrait-1005.jpg 768w,
+                           /assets/images/backyard/two-bedroom-hero/two-bedroom-hero-2210.jpg
+                       " loading="eager" width="2210" height="1658">
+               </div>
+               <div class="infinite-slideshow-item current" style="transform: translate3d(41819px, 0px, 0px);">
+                   <img alt="Two bedroom" srcset="
+                           /assets/images/backyard/hero-onebed-portrait/hero-onebed-portrait-1005.jpg 768w,
+                           /assets/images/backyard/green/green-2210.jpg
+                       " loading="eager" width="2210" height="1658" class="current">
+               </div>
+               <div class="infinite-slideshow-item" style="transform: translate3d(43168px, 0px, 0px);">
+                   <img alt="Studio" srcset="
+                           /assets/images/backyard/hero-studio-portrait/hero-studio-portrait-1005.jpg 768w,
+                           /assets/images/backyard/hollywood/hollywood-2210.jpg
+                       " loading="eager" width="2210" height="1658">
+               </div>
+           <div class="infinite-slideshow-snapper" style="left: 0px;"></div><div class="infinite-slideshow-snapper" style="left: 1349px;"></div><div class="infinite-slideshow-snapper" style="left: 2698px;"></div><div class="infinite-slideshow-snapper" style="left: 4047px;"></div><div class="infinite-slideshow-snapper" style="left: 5396px;"></div><div class="infinite-slideshow-snapper" style="left: 6745px;"></div><div class="infinite-slideshow-snapper" style="left: 8094px;"></div><div class="infinite-slideshow-snapper" style="left: 9443px;"></div><div class="infinite-slideshow-snapper" style="left: 10792px;"></div><div class="infinite-slideshow-snapper" style="left: 12141px;"></div><div class="infinite-slideshow-snapper" style="left: 13490px;"></div><div class="infinite-slideshow-snapper" style="left: 14839px;"></div><div class="infinite-slideshow-snapper" style="left: 16188px;"></div><div class="infinite-slideshow-snapper" style="left: 17537px;"></div><div class="infinite-slideshow-snapper" style="left: 18886px;"></div><div class="infinite-slideshow-snapper" style="left: 20235px;"></div><div class="infinite-slideshow-snapper" style="left: 21584px;"></div><div class="infinite-slideshow-snapper" style="left: 22933px;"></div><div class="infinite-slideshow-snapper" style="left: 24282px;"></div><div class="infinite-slideshow-snapper" style="left: 25631px;"></div><div class="infinite-slideshow-snapper" style="left: 26980px;"></div><div class="infinite-slideshow-snapper" style="left: 28329px;"></div><div class="infinite-slideshow-snapper" style="left: 29678px;"></div><div class="infinite-slideshow-snapper" style="left: 31027px;"></div><div class="infinite-slideshow-snapper" style="left: 32376px;"></div><div class="infinite-slideshow-snapper" style="left: 33725px;"></div><div class="infinite-slideshow-snapper" style="left: 35074px;"></div><div class="infinite-slideshow-snapper" style="left: 36423px;"></div><div class="infinite-slideshow-snapper" style="left: 37772px;"></div><div class="infinite-slideshow-snapper" style="left: 39121px;"></div><div class="infinite-slideshow-snapper" style="left: 40470px;"></div><div class="infinite-slideshow-snapper" style="left: 41819px;"></div><div class="infinite-slideshow-snapper" style="left: 43168px;"></div><div class="infinite-slideshow-snapper" style="left: 44517px;"></div><div class="infinite-slideshow-snapper" style="left: 45866px;"></div><div class="infinite-slideshow-snapper" style="left: 47215px;"></div><div class="infinite-slideshow-snapper" style="left: 48564px;"></div><div class="infinite-slideshow-snapper" style="left: 49913px;"></div><div class="infinite-slideshow-snapper" style="left: 51262px;"></div><div class="infinite-slideshow-snapper" style="left: 52611px;"></div><div class="infinite-slideshow-snapper" style="left: 53960px;"></div><div class="infinite-slideshow-snapper" style="left: 55309px;"></div><div class="infinite-slideshow-snapper" style="left: 56658px;"></div><div class="infinite-slideshow-snapper" style="left: 58007px;"></div><div class="infinite-slideshow-snapper" style="left: 59356px;"></div><div class="infinite-slideshow-snapper" style="left: 60705px;"></div><div class="infinite-slideshow-snapper" style="left: 62054px;"></div><div class="infinite-slideshow-snapper" style="left: 63403px;"></div><div class="infinite-slideshow-snapper" style="left: 64752px;"></div><div class="infinite-slideshow-snapper" style="left: 66101px;"></div><div class="infinite-slideshow-snapper" style="left: 67450px;"></div><div class="infinite-slideshow-snapper" style="left: 68799px;"></div><div class="infinite-slideshow-snapper" style="left: 70148px;"></div><div class="infinite-slideshow-snapper" style="left: 71497px;"></div><div class="infinite-slideshow-snapper" style="left: 72846px;"></div><div class="infinite-slideshow-snapper" style="left: 74195px;"></div><div class="infinite-slideshow-snapper" style="left: 75544px;"></div><div class="infinite-slideshow-snapper" style="left: 76893px;"></div><div class="infinite-slideshow-snapper" style="left: 78242px;"></div><div class="infinite-slideshow-snapper" style="left: 79591px;"></div><div class="infinite-slideshow-snapper" style="left: 80940px;"></div><div class="infinite-slideshow-snapper" style="left: 82289px;"></div><div class="infinite-slideshow-snapper" style="left: 83638px;"></div></div>
+       </div>
+   </div>
+   <div class="spacer-16"></div>
+   <div class="intro-carousel-layout">
+       <span class="type-24" id="intro-carousel-layout-name">One bedroom</span>
+       <span class="type-18 color-text-40" id="intro-carousel-layout-area">540 sq. ft.</span>
+   </div>
+   <div class="spacer-16"></div>
+   <ul class="paging-indicator" data-change-emmiter-selector=".intro-carousel-container .infinite-slideshow" data-init="true">
+       <li class=""></li>
+       <li class="paging-indicator-current"></li>
+       <li></li>
+</ul>
+
+</div>
+
+
+   <div class="slide intro-carousel">
+       <div class="spacer-150 m-spacer-100"></div>
+       <h1 class="type-60 m-type-42">
+           Rent it.<br>
+           Divide it.<br>
+           Work there.<br>
+           Or live in it.
+       </h1>
+       <h1 class="type-60 m-type-42 color-text-40">
+           Unlock the<br class="mobile"> potential<br class="desktop">
+           of<br class="mobile"> your yard.
+       </h1>
+       <div class="spacer-16"></div>
+       <div class="as-seen-in-container">
+   <div class="spacer-32 m-spacer-16"></div>
+   <div class="as-seen-in">
+       <div class="label m-type-12">As seen in:</div>
+       <a href="/news">
+           <img width="108" height="16" src="/assets/images/newsroom/fastcompany.svg" alt="Fastcompany" loading="eager">
+           <img width="102" height="20" style="margin-top: 3px" src="/assets/images/newsroom/bloomberg.svg" alt="Bloomberg" loading="eager">
+           <img width="39" height="20" src="/assets/images/newsroom/wsj.svg" alt="WSJ" loading="eager">
+           <img width="98" height="24" src="/assets/images/newsroom/wallpaper.svg" alt="Wallpaper" loading="eager">
+       </a>
+   </div>
+   <div class="spacer-32"></div>
+   <div class="spacer-16"></div>
+</div>
+
+       <div class="spacer-72 m-spacer-64"></div>
+   </div>
+
+   <div class="slide banners">
+       <div class="spacer-32 m-spacer-0"></div>
+       <div class="modern-grid">
+           <div class="column-1 m-column-0"></div>
+           <div class="column-5 m-column-6">
+               <a class="banner banner-showroom type-30-light m-type-18-light l-type-21-light" href="/showrooms">
+                   <span>
+                       Experience Backyard in&nbsp;person.
+                   </span><br>
+                   Visit a&nbsp;showroom
+                   <svg width="18" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                       <path d="M16.0883 15.5482L14.5476 14.039L19.7356 8.88232H0V6.74421H19.7356L14.5161 1.55613L16.0568 0.046875L23.8232 7.81326L16.0883 15.5482Z" fill="white"></path>
+                   </svg>
+               </a>
+           </div>
+           <div class="column-5 m-column-6">
+               <a class="banner banner-video banner-how-it-works type-30-light l-type-21-light m-type-18-light" href="/backyard/how-it-works">
+                   <div>
+                       <span>
+                           Learn how we squeeze a&nbsp;whole house into your&nbsp;yard.
+                       </span>
+                       <br>
+                       How it works
+                       <svg width="18" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M16.0883 15.5482L14.5476 14.039L19.7356 8.88232H0V6.74421H19.7356L14.5161 1.55613L16.0568 0.046875L23.8232 7.81326L16.0883 15.5482Z" fill="white"></path>
+                       </svg>
+                   </div>
+                   <video loading="eager" muted="" loop="" playsinline="" preload="none">
+                       <source src="https://customer-rzhtf894oui3z1e3.cloudflarestream.com/12de6a2d9ca66bc16c9759870bc03a9e/downloads/default.mp4" type="video/mp4">
+                   </video>
+               </a>
+           </div>
+       </div>
+       <div class="spacer-150 m-spacer-100"></div>
+       <div class="spacer-72 m-spacer-0"></div>
+   </div>
+
+   <div class="slide three-sizes three-sizes-gradient ">
+   <div class="modern-grid">
+       <div class="column-1"></div>
+       <div class="column-10">
+           <h1 class="type-60 m-type-36">Three sizes. <span class="color-text-40">Tons of possibility.</span></h1>
+       </div>
+   </div>
+   <div class="spacer-50 m-spacer-32"></div>
+   <div class="three-sizes-layouts" data-selection="onebed">
+       <div class="spacer-16 m-spacer-0"></div>
+       <div class="three-sizes-layouts-pages">
+           <div class="three-sizes-layouts-pages-controls">
+               <button class="three-sizes-layouts-pages-controls-button-previous" title="Previous model">
+                   <img loading="eager" src="/assets/images/icons/chevron-grey.svg" width="9" height="17" alt="Previous model">
+               </button>
+               <button class="three-sizes-layouts-pages-controls-button-next" title="Next model">
+                   <img loading="eager" src="/assets/images/icons/chevron-grey.svg" width="9" height="17" alt="Next model">
+               </button>
+           </div>
+           <div class="three-sizes-layouts-pages-container" style="cursor: pointer;">
+               <div class="three-sizes-layouts-pages-container-scroll">
+                   <div class="three-sizes-layouts-pages-page three-sizes-layouts-pages-studio">
+                       <div class="three-sizes-layouts-pages-heading">
+                           <h2 class="type-30-light m-type-24">Studio</h2>
+                           <p class="type-18 color-text-60">420 sq. ft.</p>
+                       </div>
+                       <div class="spacer-32 m-spacer-16"></div>
+                       <div class="three-sizes-layouts-pages-image" style="transform: translate3d(34.350582vw, 0px, 0px);">
+                           <img loading="eager" alt="Bone white studio" srcset="/assets/images/backyard/front-elevations/studio.frontdoors.solarfull.basewhite.roofdarkbronze.front/studio.frontdoors.solarfull.basewhite.roofdarkbronze.front-2000.webp 768w, /assets/images/backyard/front-elevations/studio.frontdoors.solarfull.basewhite.roofdarkbronze.front/studio.frontdoors.solarfull.basewhite.roofdarkbronze.front-4000.webp" class="current"> <img loading="lazy" alt="Driftwood studio" srcset="/assets/images/backyard/front-elevations/studio.frontdoors.solarfull.basegrey.roofdarkbronze.front/studio.frontdoors.solarfull.basegrey.roofdarkbronze.front-2000.webp 768w, /assets/images/backyard/front-elevations/studio.frontdoors.solarfull.basegrey.roofdarkbronze.front/studio.frontdoors.solarfull.basegrey.roofdarkbronze.front-4000.webp"> <img loading="lazy" alt="Parchment studio" srcset="/assets/images/backyard/front-elevations/studio.frontdoors.solarfull.basetan.roofdarkbronze.front/studio.frontdoors.solarfull.basetan.roofdarkbronze.front-2000.webp 768w, /assets/images/backyard/front-elevations/studio.frontdoors.solarfull.basetan.roofdarkbronze.front/studio.frontdoors.solarfull.basetan.roofdarkbronze.front-4000.webp"> <img loading="lazy" alt="Evergreen studio" srcset="/assets/images/backyard/front-elevations/studio.frontdoors.solarfull.basegreen.roofdarkbronze.front/studio.frontdoors.solarfull.basegreen.roofdarkbronze.front-2000.webp 768w, /assets/images/backyard/front-elevations/studio.frontdoors.solarfull.basegreen.roofdarkbronze.front/studio.frontdoors.solarfull.basegreen.roofdarkbronze.front-4000.webp"> <img loading="lazy" alt="Dark bronze studio" srcset="/assets/images/backyard/front-elevations/studio.frontdoors.solarfull.basebronze.roofdarkbronze.front/studio.frontdoors.solarfull.basebronze.roofdarkbronze.front-2000.webp 768w, /assets/images/backyard/front-elevations/studio.frontdoors.solarfull.basebronze.roofdarkbronze.front/studio.frontdoors.solarfull.basebronze.roofdarkbronze.front-4000.webp">
+                       </div>
+                   </div>
+                   <div class="three-sizes-layouts-pages-page three-sizes-layouts-pages-onebed selected">
+                       <div class="three-sizes-layouts-pages-heading">
+                           <h2 class="type-30-light m-type-24">One bedroom</h2>
+                           <p class="type-18 color-text-60">540 sq. ft.</p>
+                       </div>
+                       <div class="spacer-32 m-spacer-16"></div>
+                       <div class="three-sizes-layouts-pages-image" style="transform: translate3d(0.304181vw, 0px, 0px);">
+                           <img loading="eager" alt="Bone white one bedroom" srcset="/assets/images/backyard/front-elevations/onebedroom.frontdoors.solarfull.basebonewhite.roofdarkbronze.front/onebedroom.frontdoors.solarfull.basebonewhite.roofdarkbronze.front-2000.webp 768w, /assets/images/backyard/front-elevations/onebedroom.frontdoors.solarfull.basebonewhite.roofdarkbronze.front/onebedroom.frontdoors.solarfull.basebonewhite.roofdarkbronze.front-4000.webp" class="current"> <img loading="eager" alt="Driftwood one bedroom" srcset="/assets/images/backyard/front-elevations/onebedroom.frontdoors.solarfull.basegrey.roofdarkbronze.front/onebedroom.frontdoors.solarfull.basegrey.roofdarkbronze.front-2000.webp 768w, /assets/images/backyard/front-elevations/onebedroom.frontdoors.solarfull.basegrey.roofdarkbronze.front/onebedroom.frontdoors.solarfull.basegrey.roofdarkbronze.front-4000.webp"> <img loading="eager" alt="Parchment one bedroom" srcset="/assets/images/backyard/front-elevations/onebedroom.frontdoors.solarfull.basetan.roofdarkbronze.front/onebedroom.frontdoors.solarfull.basetan.roofdarkbronze.front-2000.webp 768w, /assets/images/backyard/front-elevations/onebedroom.frontdoors.solarfull.basetan.roofdarkbronze.front/onebedroom.frontdoors.solarfull.basetan.roofdarkbronze.front-4000.webp"> <img loading="eager" alt="Evergreen one bedroom" srcset="/assets/images/backyard/front-elevations/onebedroom.frontdoors.solarfull.basegreen.roofdarkbronze.front/onebedroom.frontdoors.solarfull.basegreen.roofdarkbronze.front-2000.webp 768w, /assets/images/backyard/front-elevations/onebedroom.frontdoors.solarfull.basegreen.roofdarkbronze.front/onebedroom.frontdoors.solarfull.basegreen.roofdarkbronze.front-4000.webp"> <img loading="eager" alt="Drak bronze one bedroom" srcset="/assets/images/backyard/front-elevations/onebedroom.frontdoors.solarfull.basebronze.roofdarkbronze.front/onebedroom.frontdoors.solarfull.basebronze.roofdarkbronze.front-2000.webp 768w, /assets/images/backyard/front-elevations/onebedroom.frontdoors.solarfull.basebronze.roofdarkbronze.front/onebedroom.frontdoors.solarfull.basebronze.roofdarkbronze.front-4000.webp">
+                       </div>
+                   </div>
+                   <div class="three-sizes-layouts-pages-page three-sizes-layouts-pages-twobed">
+                       <div class="three-sizes-layouts-pages-heading">
+                           <h2 class="type-30-light m-type-24">Two bedroom</h2>
+                           <p class="type-18 color-text-60">690 sq. ft.</p>
+                       </div>
+                       <div class="spacer-32 m-spacer-16"></div>
+                       <div class="three-sizes-layouts-pages-image" style="transform: translate3d(-23.752531vw, 0px, 0px);">
+                           <img loading="eager" alt="Bone white two bedroom" srcset="/assets/images/backyard/front-elevations/twobedroom.frontdoors.solarfull.basewhite.roofdarkbronze.front/twobedroom.frontdoors.solarfull.basewhite.roofdarkbronze.front-2000.webp 768w, /assets/images/backyard/front-elevations/twobedroom.frontdoors.solarfull.basewhite.roofdarkbronze.front/twobedroom.frontdoors.solarfull.basewhite.roofdarkbronze.front-4000.webp" class="current"> <img loading="lazy" alt="Driftwood two bedroom" srcset="/assets/images/backyard/front-elevations/twobedroom.frontdoors.solarfull.basegrey.roofdarkbronze.front/twobedroom.frontdoors.solarfull.basegrey.roofdarkbronze.front-2000.webp 768w, /assets/images/backyard/front-elevations/twobedroom.frontdoors.solarfull.basegrey.roofdarkbronze.front/twobedroom.frontdoors.solarfull.basegrey.roofdarkbronze.front-4000.webp"> <img loading="lazy" alt="Parchment two bedroom" srcset="/assets/images/backyard/front-elevations/twobedroom.frontdoors.solarfull.basetan.roofdarkbronze.front/twobedroom.frontdoors.solarfull.basetan.roofdarkbronze.front-2000.webp 768w, /assets/images/backyard/front-elevations/twobedroom.frontdoors.solarfull.basetan.roofdarkbronze.front/twobedroom.frontdoors.solarfull.basetan.roofdarkbronze.front-4000.webp"> <img loading="lazy" alt="Evergreen two bedroom" srcset="/assets/images/backyard/front-elevations/twobedroom.frontdoors.solarfull.basegreen.roofdarkbronze.front/twobedroom.frontdoors.solarfull.basegreen.roofdarkbronze.front-2000.webp 768w, /assets/images/backyard/front-elevations/twobedroom.frontdoors.solarfull.basegreen.roofdarkbronze.front/twobedroom.frontdoors.solarfull.basegreen.roofdarkbronze.front-4000.webp"> <img loading="lazy" alt="Dark bronze two bedroom" srcset="/assets/images/backyard/front-elevations/twobedroom.frontdoors.solarfull.basebronze.roofdarkbronze.front/twobedroom.frontdoors.solarfull.basebronze.roofdarkbronze.front-2000.webp 768w, /assets/images/backyard/front-elevations/twobedroom.frontdoors.solarfull.basebronze.roofdarkbronze.front/twobedroom.frontdoors.solarfull.basebronze.roofdarkbronze.front-4000.webp">
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div class="three-sizes-paging-indicator">
+               <ul class="paging-indicator" data-change-emmiter-selector=".three-sizes-layouts-pages-container" data-init="true">
+       <li></li>
+       <li class="paging-indicator-current"></li>
+       <li></li>
+</ul>
+
+           </div>
+           <div class="spacer-0 m-spacer-8"></div>
+           <div class="three-sizes-colors">
+                   <div class="
+                       type-14
+                       three-sizes-colors-bone-white
+                       selected
+                   ">
+                       <span class="three-sizes-colors-label">
+                           <span>Bone white</span>
+                       </span>
+                       <div></div>
+                   </div>
+                   <div class="
+                       type-14
+                       three-sizes-colors-driftwood
+                       
+                   ">
+                       <span class="three-sizes-colors-label">
+                           <span>Driftwood</span>
+                       </span>
+                       <div></div>
+                   </div>
+                   <div class="
+                       type-14
+                       three-sizes-colors-parchment
+                       
+                   ">
+                       <span class="three-sizes-colors-label">
+                           <span>Parchment</span>
+                       </span>
+                       <div></div>
+                   </div>
+                   <div class="
+                       type-14
+                       three-sizes-colors-evergreen
+                       
+                   ">
+                       <span class="three-sizes-colors-label">
+                           <span>Evergreen</span>
+                       </span>
+                       <div></div>
+                   </div>
+                   <div class="
+                       type-14
+                       three-sizes-colors-dark-bronze
+                       
+                   ">
+                       <span class="three-sizes-colors-label">
+                           <span>Dark bronze</span>
+                       </span>
+                       <div></div>
+                   </div>
+           </div>
+           <div class="spacer-32 m-spacer-16"></div>
+           <div class="three-sizes-footer">
+               <p class="type-18 m-type-15">All models include our signature kitchen, bathroom with walk-in shower, combo washer dryer, and lots of built-in storage.</p>
+               <div class="spacer-16"></div>
+               <p class="type-15 m-type-14 color-text-60">
+                   Custom built and fully installed for as little as <span id="three-sizes-footer-cost-total" class="color-text-100">$299,000</span> or <span id="three-sizes-footer-cost-monthly" class="color-text-100">$1,790/mo</span>
+                   <button class="three-sizes-footer-calculator">
+                       <img src="/assets/images/configure/sliders.svg" alt="Open calculator" width="13" height="13" loading="eager">
+                   </button>
+               </p>
+               <div class="spacer-50 m-spacer-8"></div>
+               <div class="three-sizes-footer-actions">
+                       <a class="three-sizes-footer-action three-sizes-footer-action-contact type-15 m-type-14" onclick="Contact.show({ variant: 'default' })">
+                           <span class="color-text-100">Want to know more?</span>
+                           Talk to one of our experts
+                       </a>
+                       <a id="three-sizes-footer-configure-link" href="/backyard/configure#bonewhite+onebed" class="three-sizes-footer-action type-15 m-type-14">
+                           <img src="/assets/images/backyard/configure-cta.webp" width="1" height="1" alt="3D Cube" loading="eager">
+                           Configure in 3D
+                           <img src="/assets/images/icons/arrow-right-blue.svg" loading="eager" width="14" height="9" alt="→">
+                       </a>
+               </div>
+               <div class="spacer-16 m-spacer-0"></div>
+           </div>
+       </div>
+   </div>
+   <div class="spacer-100 m-spacer-64"></div>
+</div>
+
+
+   <div class="slide four-simple-steps desktop-hidden">
+       <div class="four-simple-steps-header">
+           <div class="spacer-16"></div>
+           <h1 class="m-type-36">
+               Get Backyard in four&nbsp;simple&nbsp;steps.
+           </h1>
+           <h1 class="color-text-40 m-type-36">
+               And in as few as seven&nbsp;months.
+           </h1>
+           <div class="spacer-50"></div>
+       </div>
+   </div>
+
+   <div class="slide four-simple-steps four-simple-steps-scroll">
+       <div class="four-simple-steps-header mobile-hidden">
+           <h1 class="type-48 l-type-30-light">
+               Get Backyard in four&nbsp;simple&nbsp;steps.
+           </h1>
+           <h1 class="color-text-40 type-48 l-type-30-light">
+               And in as few as seven&nbsp;months.
+           </h1>
+       </div>
+       <div class="four-simple-steps-step four-simple-steps-step-eternal">
+           <div class="four-simple-steps-step-header">
+               <div class="four-simple-steps-step-number type-18 mono-nums">01</div>
+               <div class="four-simple-steps-step-line four-simple-steps-step-line-first"></div>
+               <div class="spacer-12"></div>
+               <h2 class="type-24-light">Configure</h2>
+               <div class="spacer-8"></div>
+           </div>
+           <div class="four-simple-steps-step-footer">
+               <p class="type-15 m-type-14 color-text-60">
+                   Tailor your unit with a layout and customizations that reflect your style and needs.
+               </p>
+               <div class="four-simple-steps-step-media">
+                   <div class="four-simple-steps-step-media-touch"></div>
+                   <img loading="eager" srcset="/assets/images/backyard/steps-configure-portrait/steps-configure-portrait-1100.webp 768w, /assets/images/backyard/steps-configure/steps-configure-630.webp" alt="Configure" width="315" height="396">
+               </div>
+           </div>
+       </div>
+       <div class="four-simple-steps-step">
+           <div class="four-simple-steps-step-header four-simple-steps-step-header-light">
+               <div class="four-simple-steps-step-number type-18 mono-nums color-text-60">02</div>
+               <div class="four-simple-steps-step-line four-simple-steps-step-line-second"></div>
+               <div class="spacer-12"></div>
+               <h2 class="type-24-light">Sign off</h2>
+               <div class="spacer-8"></div>
+           </div>
+           <div class="four-simple-steps-step-footer">
+               <p class="type-15 m-type-14 color-text-60">
+                   We visit your site to create an accurate estimate for the work required to install Backyard.
+               </p>
+               <div class="four-simple-steps-step-media">
+                   <div class="four-simple-steps-step-media-touch"></div>
+                   <video class="mobile-hidden" loading="eager" muted="" loop="" playsinline="" preload="none">
+                       <source src="https://customer-rzhtf894oui3z1e3.cloudflarestream.com/003c536adcae09a8bd60466dd36e3582/downloads/default.mp4" type="video/mp4">
+                   </video>
+                   <video class="desktop-hidden" loading="lazy" muted="" loop="" playsinline="" preload="none">
+                       <source src="https://customer-rzhtf894oui3z1e3.cloudflarestream.com/acec9f3bb8f9e288a93705aadf70bb99/downloads/default.mp4" type="video/mp4">
+                   </video>
+               </div>
+           </div>
+       </div>
+       <div class="four-simple-steps-step">
+           <div class="four-simple-steps-step-header four-simple-steps-step-header-light">
+               <div class="four-simple-steps-step-number type-18 mono-nums color-text-60">03</div>
+               <div class="four-simple-steps-step-line four-simple-steps-step-line-third-before"></div>
+               <div class="four-simple-steps-step-line four-simple-steps-step-line-third-after"></div>
+               <div class="spacer-12"></div>
+               <h2 class="type-24-light">Sit back</h2>
+               <div class="spacer-8"></div>
+           </div>
+           <div class="four-simple-steps-step-footer">
+               <p class="type-15 m-type-14 color-text-60">
+                   We get building permits, manufacture your unit and prepare your site. You decide how to use it.
+               </p>
+               <div class="four-simple-steps-step-media">
+                   <div class="four-simple-steps-step-media-touch"></div>
+                   <video class="mobile-hidden" loading="eager" muted="" loop="" playsinline="" preload="none">
+                       <source src="https://customer-rzhtf894oui3z1e3.cloudflarestream.com/2c14b9c57ee6ce023bf6264c94d01689/downloads/default.mp4" type="video/mp4">
+                   </video>
+                   <video class="desktop-hidden" loading="lazy" muted="" loop="" playsinline="" preload="none">
+                       <source src="https://customer-rzhtf894oui3z1e3.cloudflarestream.com/10d8c1d596a292ae1725e63a39fca76b/downloads/default.mp4" type="video/mp4">
+                   </video>
+               </div>
+           </div>
+       </div>
+       <div class="four-simple-steps-step four-simple-steps-step-eternal">
+           <div class="four-simple-steps-step-header">
+               <div class="four-simple-steps-step-number type-18 mono-nums">04</div>
+               <div class="spacer-12"></div>
+               <h2 class="type-24-light">
+                   <span class="mobile-hidden">Get your keys</span>
+                   <span class="desktop-hidden">Move in</span>
+               </h2>
+               <div class="spacer-8"></div>
+           </div>
+           <div class="four-simple-steps-step-footer">
+               <p class="type-15 m-type-14 color-text-60">
+                   Seven months after approving your estimate, you'll get the keys to your own Backyard oasis.
+               </p>
+               <div class="four-simple-steps-step-media">
+                   <div class="four-simple-steps-step-media-touch"></div>
+                   <img loading="eager" srcset="/assets/images/backyard/steps-get-your-keys-portrait/steps-get-your-keys-portrait-1100.webp 768w, /assets/images/backyard/steps-get-your-keys/steps-get-your-keys-630.webp" alt="Get your keys" width="315" height="360">
+               </div>
+           </div>
+       </div>
+       <div class="four-simple-steps-footer mobile-hidden">
+           <h3 class="type-24-light">Want the details?</h3>
+           <h3 class="color-text-40 type-24-light">
+               Learn more about our fast, easy installation process.
+           </h3>
+           <div class="four-simple-steps-footer-buttons">
+               <a class="type-14" href="/backyard/how-it-works">
+                   How it works
+               </a>
+               <a class="type-14 four-simple-steps-footer-button-configure" href="/backyard/configure">
+                   <img loading="eager" src="/assets/images/backyard/configure-box-white.svg" alt="Configure" width="14" height="16">Configure
+               </a>
+           </div>
+       </div>
+   </div>
+
+   <div class="slide four-simple-steps desktop-hidden">
+       <div class="four-simple-steps-footer">
+           <div class="four-simple-steps-footer-paging-indicator">
+               <ul class="paging-indicator" data-scroll-element-selector=".four-simple-steps-scroll" data-init="true">
+       <li class="paging-indicator-current"></li>
+       <li></li>
+       <li></li>
+       <li></li>
+</ul>
+
+           </div>
+           <div class="four-simple-steps-footer-title">
+               <h3 class="m-type-21-light">
+                   Want the details?
+               </h3>
+               <h3 class="color-text-40 m-type-21-light">
+                   Learn more about our fast, easy installation process.
+               </h3>
+           </div>
+           <div class="four-simple-steps-footer-buttons">
+               <a class="type-14" href="/backyard/how-it-works">
+                   How it works
+               </a>
+               <a class="type-14 four-simple-steps-footer-button-configure" href="/backyard/configure">
+                   <img loading="lazy" src="/assets/images/backyard/configure-box-white.svg" alt="Configure" width="14" height="16">Configure
+               </a>
+           </div>
+       </div>
+   </div>
+
+    <div class="slide jealousy" data-invert="true">
+       <div class="column">
+           <h1 class="h3">Your main<br>home might<br>get jealous</h1>
+       </div>
+       <ul>
+           <li><input aria-label="Studio" data-layout="studio" type="radio" name="jealousy-selector-main">Studio</li>
+           <li><input aria-label="1B" data-layout="onebed" type="radio" name="jealousy-selector-main" checked="">1B</li>
+           <li><input aria-label="2B" data-layout="twobed" type="radio" name="jealousy-selector-main">2B</li>
+       </ul>
+       <div class="images">
+           <img alt="Studio interior" srcset="/assets/images/backyard/interior-studio/interior-studio-1536.webp 768w, /assets/images/backyard/interior-studio/interior-studio-2880.webp" loading="eager"> <img alt="One bedroom interior" srcset="/assets/images/backyard/living-room/living-room-1536.webp 768w, /assets/images/backyard/living-room/living-room-2880.webp" loading="eager">
+           <img alt="Two bedroom interior" srcset="/assets/images/backyard/interior-twobed/interior-twobed-1536.webp 768w, /assets/images/backyard/interior-twobed/interior-twobed-2880.webp" loading="eager">
+       </div>
+   </div>
+
+   <div class="interior-carousel interior-carousel-white">
+       <div class="spacer-120 m-spacer-24"></div>
+       <div class="interior-carousel-cards">
+           <div class="interior-carousel-cards-card">
+               <div class="spacer-8"></div>
+               <div class="interior-carousel-cards-card-images">
+                   <img loading="eager" alt="Studio" srcset="/assets/images/backyard/kitchen-studio/kitchen-studio-1125.jpg 768w, /assets/images/backyard/kitchen-studio/kitchen-studio-2000.jpg">
+                   <img loading="eager" alt="One bedroom and two bedroom" srcset="/assets/images/backyard/kitchen/kitchen-1125.jpg 768w, /assets/images/backyard/kitchen/kitchen-2000.jpg">
+               </div>
+               <div class="spacer-24 m-spacer-16"></div>
+               <div class="type-24 m-type-18">A fully-equipped kitchen</div>
+               <div class="spacer-8"></div>
+               <p class="type-18 m-type-14 color-text-60">
+                   Cook effortlessly with a full suite of premium, all-electric appliances, including a hidden dishwasher, plus integrated task lighting and ample storage.
+               </p>
+               <div class="spacer-32 m-spacer-16"></div>
+               <ul>
+                   <li>
+                       <input aria-label="1B / 2B" data-layout="onebed" type="radio" name="jealousy-selector-kitchen" checked="">1B / 2B
+                   </li>
+                   <li>
+                       <input aria-label="Studio" data-layout="studio" type="radio" name="jealousy-selector-kitchen">Studio
+                   </li>
+               </ul>
+           </div>
+           <div class="interior-carousel-cards-card">
+               <div class="spacer-8"></div>
+               <div class="interior-carousel-cards-card-images">
+                   <img loading="eager" alt="Studio" srcset="/assets/images/backyard/corridor-studio/corridor-studio-1125.jpg 768w, /assets/images/backyard/corridor-studio/corridor-studio-2000.jpg">
+                   <img loading="eager" alt="One bedroom and two bedroom" srcset="/assets/images/backyard/interior-overview/interior-overview-1125.jpg 768w, /assets/images/backyard/interior-overview/interior-overview-2000.jpg">
+               </div>
+               <div class="spacer-24 m-spacer-16"></div>
+               <div class="type-24 m-type-18">Space for activities</div>
+               <div class="spacer-8"></div>
+               <p class="type-18 m-type-14 color-text-60">
+                   Backyard is perfect for getting your new business off the ground, hosting dinner parties or poker night, and making sure family always has a place to stay.
+               </p>
+               <div class="spacer-32 m-spacer-16"></div>
+               <ul>
+                   <li>
+                       <input aria-label="1B / 2B" data-layout="onebed" type="radio" name="jealousy-selector-living" checked="">1B / 2B
+                   </li>
+                   <li>
+                       <input aria-label="Studio" data-layout="studio" type="radio" name="jealousy-selector-living">Studio
+                   </li>
+               </ul>
+           </div>
+           <div class="interior-carousel-cards-card">
+               <div class="spacer-8"></div>
+               <div class="interior-carousel-cards-card-images">
+                   <img loading="lazy" alt="All models" srcset="/assets/images/backyard/bathroom/bathroom-1125.jpg 768w, /assets/images/backyard/bathroom/bathroom-2000.jpg">
+               </div>
+               <div class="spacer-24 m-spacer-16"></div>
+               <div class="type-24 m-type-18">A spa-like bathroom</div>
+               <div class="spacer-8"></div>
+               <p class="type-18 m-type-14 color-text-60">
+                   The bathroom is an oasis for daily routines, thanks to a generous vanity, walk-in shower, combination washer and dryer, and space for supplies.
+               </p>
+               <div class="spacer-32 m-spacer-16"></div>
+               <ul>
+                   <li class="all">
+                       <label for="interior-overview-studio">All models</label>
+                   </li>
+               </ul>
+           </div>
+           <div class="interior-carousel-cards-card">
+               <div class="spacer-8"></div>
+               <div class="interior-carousel-cards-card-images">
+                   <img loading="lazy" alt="All models" srcset="/assets/images/backyard/bedroom/bedroom-1125.jpg 768w, /assets/images/backyard/bedroom/bedroom-2000.jpg">
+               </div>
+               <div class="spacer-24 m-spacer-16"></div>
+               <div class="type-24 m-type-18">A tranquil bedroom</div>
+               <div class="spacer-8"></div>
+               <p class="type-18 m-type-14 color-text-60">
+                   The bedroom has ample storage for long-term living. But it also makes a great recording studio, meditation den, or library.
+               </p>
+               <div class="spacer-32 m-spacer-16"></div>
+               <ul>
+                   <li class="all">
+                       <label for="interior-overview-studio">1B / 2B</label>
+                   </li>
+               </ul>
+           </div>
+       </div>
+       <div class="interior-carousel-paging-indicator desktop-hidden">
+           <div class="spacer-16"></div>
+           <ul class="paging-indicator" data-scroll-element-selector=".interior-carousel-cards" data-init="true">
+       <li class="paging-indicator-current"></li>
+       <li></li>
+       <li></li>
+       <li></li>
+</ul>
+
+       </div>
+       <div class="spacer-120 m-spacer-72"></div>
+   </div>
+
+   <div class="slide a-lot-can-happen">
+       <div class="modern-grid a-lot-can-happen-foreground">
+           <div class="column-2 m-column-0"></div>
+           <div class="column-4 m-column-6 a-lot-can-happen-title">
+               <div class="spacer-50"></div>
+               <h1 class="type-42 m-type-36">
+                   A lot can<br class="desktop-hidden">
+                   happen<br class="mobile-hidden">
+                   with<br class="desktop-hidden">
+                   a little space.</h1>
+           </div>
+           <div class="column-5 m-column-6 a-lot-can-happen-cards-container">
+               <div class="spacer-50 m-spacer-50"></div>
+               <div class="a-lot-can-happen-cards">
+                   <div class="infinite-slideshow" data-init="true" style="">
+                       <div class="infinite-slideshow-spacer">
+                           <div class="infinite-slideshow-item" style="transform: translate3d(40600px, 84px, 0px);">
+                               <img loading="eager" alt="Find your flow state." src="/assets/images/backyard/uses-office/uses-office-1080.webp">
+                           </div>
+                           <div class="infinite-slideshow-item" style="transform: translate3d(41006px, 84px, 0px);">
+                               <img loading="eager" alt="Build an income stream." src="/assets/images/backyard/uses-income/uses-income-1080.webp">
+                           </div>
+                           <div class="infinite-slideshow-item" style="transform: translate3d(41412px, 84px, 0px);">
+                               <img loading="eager" alt="House your fam." src="/assets/images/backyard/uses-family/uses-family-1080.webp">
+                           </div>
+                           <div class="infinite-slideshow-item current" style="transform: translate3d(41818px, 84px, 0px);">
+                               <img loading="eager" alt="Mind your business." src="/assets/images/backyard/uses-business/uses-business-1080.webp">
+                           </div>
+                           <div class="infinite-slideshow-item" style="transform: translate3d(42224px, 84px, 0px);">
+                               <img loading="eager" alt="Realize your dreams." src="/assets/images/backyard/uses-dreams/uses-dreams-1080.webp">
+                           </div>
+                       <div class="infinite-slideshow-snapper" style="left: 0px;"></div><div class="infinite-slideshow-snapper" style="left: 406px;"></div><div class="infinite-slideshow-snapper" style="left: 812px;"></div><div class="infinite-slideshow-snapper" style="left: 1218px;"></div><div class="infinite-slideshow-snapper" style="left: 1624px;"></div><div class="infinite-slideshow-snapper" style="left: 2030px;"></div><div class="infinite-slideshow-snapper" style="left: 2436px;"></div><div class="infinite-slideshow-snapper" style="left: 2842px;"></div><div class="infinite-slideshow-snapper" style="left: 3248px;"></div><div class="infinite-slideshow-snapper" style="left: 3654px;"></div><div class="infinite-slideshow-snapper" style="left: 4060px;"></div><div class="infinite-slideshow-snapper" style="left: 4466px;"></div><div class="infinite-slideshow-snapper" style="left: 4872px;"></div><div class="infinite-slideshow-snapper" style="left: 5278px;"></div><div class="infinite-slideshow-snapper" style="left: 5684px;"></div><div class="infinite-slideshow-snapper" style="left: 6090px;"></div><div class="infinite-slideshow-snapper" style="left: 6496px;"></div><div class="infinite-slideshow-snapper" style="left: 6902px;"></div><div class="infinite-slideshow-snapper" style="left: 7308px;"></div><div class="infinite-slideshow-snapper" style="left: 7714px;"></div><div class="infinite-slideshow-snapper" style="left: 8120px;"></div><div class="infinite-slideshow-snapper" style="left: 8526px;"></div><div class="infinite-slideshow-snapper" style="left: 8932px;"></div><div class="infinite-slideshow-snapper" style="left: 9338px;"></div><div class="infinite-slideshow-snapper" style="left: 9744px;"></div><div class="infinite-slideshow-snapper" style="left: 10150px;"></div><div class="infinite-slideshow-snapper" style="left: 10556px;"></div><div class="infinite-slideshow-snapper" style="left: 10962px;"></div><div class="infinite-slideshow-snapper" style="left: 11368px;"></div><div class="infinite-slideshow-snapper" style="left: 11774px;"></div><div class="infinite-slideshow-snapper" style="left: 12180px;"></div><div class="infinite-slideshow-snapper" style="left: 12586px;"></div><div class="infinite-slideshow-snapper" style="left: 12992px;"></div><div class="infinite-slideshow-snapper" style="left: 13398px;"></div><div class="infinite-slideshow-snapper" style="left: 13804px;"></div><div class="infinite-slideshow-snapper" style="left: 14210px;"></div><div class="infinite-slideshow-snapper" style="left: 14616px;"></div><div class="infinite-slideshow-snapper" style="left: 15022px;"></div><div class="infinite-slideshow-snapper" style="left: 15428px;"></div><div class="infinite-slideshow-snapper" style="left: 15834px;"></div><div class="infinite-slideshow-snapper" style="left: 16240px;"></div><div class="infinite-slideshow-snapper" style="left: 16646px;"></div><div class="infinite-slideshow-snapper" style="left: 17052px;"></div><div class="infinite-slideshow-snapper" style="left: 17458px;"></div><div class="infinite-slideshow-snapper" style="left: 17864px;"></div><div class="infinite-slideshow-snapper" style="left: 18270px;"></div><div class="infinite-slideshow-snapper" style="left: 18676px;"></div><div class="infinite-slideshow-snapper" style="left: 19082px;"></div><div class="infinite-slideshow-snapper" style="left: 19488px;"></div><div class="infinite-slideshow-snapper" style="left: 19894px;"></div><div class="infinite-slideshow-snapper" style="left: 20300px;"></div><div class="infinite-slideshow-snapper" style="left: 20706px;"></div><div class="infinite-slideshow-snapper" style="left: 21112px;"></div><div class="infinite-slideshow-snapper" style="left: 21518px;"></div><div class="infinite-slideshow-snapper" style="left: 21924px;"></div><div class="infinite-slideshow-snapper" style="left: 22330px;"></div><div class="infinite-slideshow-snapper" style="left: 22736px;"></div><div class="infinite-slideshow-snapper" style="left: 23142px;"></div><div class="infinite-slideshow-snapper" style="left: 23548px;"></div><div class="infinite-slideshow-snapper" style="left: 23954px;"></div><div class="infinite-slideshow-snapper" style="left: 24360px;"></div><div class="infinite-slideshow-snapper" style="left: 24766px;"></div><div class="infinite-slideshow-snapper" style="left: 25172px;"></div><div class="infinite-slideshow-snapper" style="left: 25578px;"></div><div class="infinite-slideshow-snapper" style="left: 25984px;"></div><div class="infinite-slideshow-snapper" style="left: 26390px;"></div><div class="infinite-slideshow-snapper" style="left: 26796px;"></div><div class="infinite-slideshow-snapper" style="left: 27202px;"></div><div class="infinite-slideshow-snapper" style="left: 27608px;"></div><div class="infinite-slideshow-snapper" style="left: 28014px;"></div><div class="infinite-slideshow-snapper" style="left: 28420px;"></div><div class="infinite-slideshow-snapper" style="left: 28826px;"></div><div class="infinite-slideshow-snapper" style="left: 29232px;"></div><div class="infinite-slideshow-snapper" style="left: 29638px;"></div><div class="infinite-slideshow-snapper" style="left: 30044px;"></div><div class="infinite-slideshow-snapper" style="left: 30450px;"></div><div class="infinite-slideshow-snapper" style="left: 30856px;"></div><div class="infinite-slideshow-snapper" style="left: 31262px;"></div><div class="infinite-slideshow-snapper" style="left: 31668px;"></div><div class="infinite-slideshow-snapper" style="left: 32074px;"></div><div class="infinite-slideshow-snapper" style="left: 32480px;"></div><div class="infinite-slideshow-snapper" style="left: 32886px;"></div><div class="infinite-slideshow-snapper" style="left: 33292px;"></div><div class="infinite-slideshow-snapper" style="left: 33698px;"></div><div class="infinite-slideshow-snapper" style="left: 34104px;"></div><div class="infinite-slideshow-snapper" style="left: 34510px;"></div><div class="infinite-slideshow-snapper" style="left: 34916px;"></div><div class="infinite-slideshow-snapper" style="left: 35322px;"></div><div class="infinite-slideshow-snapper" style="left: 35728px;"></div><div class="infinite-slideshow-snapper" style="left: 36134px;"></div><div class="infinite-slideshow-snapper" style="left: 36540px;"></div><div class="infinite-slideshow-snapper" style="left: 36946px;"></div><div class="infinite-slideshow-snapper" style="left: 37352px;"></div><div class="infinite-slideshow-snapper" style="left: 37758px;"></div><div class="infinite-slideshow-snapper" style="left: 38164px;"></div><div class="infinite-slideshow-snapper" style="left: 38570px;"></div><div class="infinite-slideshow-snapper" style="left: 38976px;"></div><div class="infinite-slideshow-snapper" style="left: 39382px;"></div><div class="infinite-slideshow-snapper" style="left: 39788px;"></div><div class="infinite-slideshow-snapper" style="left: 40194px;"></div><div class="infinite-slideshow-snapper" style="left: 40600px;"></div><div class="infinite-slideshow-snapper" style="left: 41006px;"></div><div class="infinite-slideshow-snapper" style="left: 41412px;"></div><div class="infinite-slideshow-snapper" style="left: 41818px;"></div><div class="infinite-slideshow-snapper" style="left: 42224px;"></div><div class="infinite-slideshow-snapper" style="left: 42630px;"></div><div class="infinite-slideshow-snapper" style="left: 43036px;"></div><div class="infinite-slideshow-snapper" style="left: 43442px;"></div><div class="infinite-slideshow-snapper" style="left: 43848px;"></div><div class="infinite-slideshow-snapper" style="left: 44254px;"></div><div class="infinite-slideshow-snapper" style="left: 44660px;"></div><div class="infinite-slideshow-snapper" style="left: 45066px;"></div><div class="infinite-slideshow-snapper" style="left: 45472px;"></div><div class="infinite-slideshow-snapper" style="left: 45878px;"></div><div class="infinite-slideshow-snapper" style="left: 46284px;"></div><div class="infinite-slideshow-snapper" style="left: 46690px;"></div><div class="infinite-slideshow-snapper" style="left: 47096px;"></div><div class="infinite-slideshow-snapper" style="left: 47502px;"></div><div class="infinite-slideshow-snapper" style="left: 47908px;"></div><div class="infinite-slideshow-snapper" style="left: 48314px;"></div><div class="infinite-slideshow-snapper" style="left: 48720px;"></div><div class="infinite-slideshow-snapper" style="left: 49126px;"></div><div class="infinite-slideshow-snapper" style="left: 49532px;"></div><div class="infinite-slideshow-snapper" style="left: 49938px;"></div><div class="infinite-slideshow-snapper" style="left: 50344px;"></div><div class="infinite-slideshow-snapper" style="left: 50750px;"></div><div class="infinite-slideshow-snapper" style="left: 51156px;"></div><div class="infinite-slideshow-snapper" style="left: 51562px;"></div><div class="infinite-slideshow-snapper" style="left: 51968px;"></div><div class="infinite-slideshow-snapper" style="left: 52374px;"></div><div class="infinite-slideshow-snapper" style="left: 52780px;"></div><div class="infinite-slideshow-snapper" style="left: 53186px;"></div><div class="infinite-slideshow-snapper" style="left: 53592px;"></div><div class="infinite-slideshow-snapper" style="left: 53998px;"></div><div class="infinite-slideshow-snapper" style="left: 54404px;"></div><div class="infinite-slideshow-snapper" style="left: 54810px;"></div><div class="infinite-slideshow-snapper" style="left: 55216px;"></div><div class="infinite-slideshow-snapper" style="left: 55622px;"></div><div class="infinite-slideshow-snapper" style="left: 56028px;"></div><div class="infinite-slideshow-snapper" style="left: 56434px;"></div><div class="infinite-slideshow-snapper" style="left: 56840px;"></div><div class="infinite-slideshow-snapper" style="left: 57246px;"></div><div class="infinite-slideshow-snapper" style="left: 57652px;"></div><div class="infinite-slideshow-snapper" style="left: 58058px;"></div><div class="infinite-slideshow-snapper" style="left: 58464px;"></div><div class="infinite-slideshow-snapper" style="left: 58870px;"></div><div class="infinite-slideshow-snapper" style="left: 59276px;"></div><div class="infinite-slideshow-snapper" style="left: 59682px;"></div><div class="infinite-slideshow-snapper" style="left: 60088px;"></div><div class="infinite-slideshow-snapper" style="left: 60494px;"></div><div class="infinite-slideshow-snapper" style="left: 60900px;"></div><div class="infinite-slideshow-snapper" style="left: 61306px;"></div><div class="infinite-slideshow-snapper" style="left: 61712px;"></div><div class="infinite-slideshow-snapper" style="left: 62118px;"></div><div class="infinite-slideshow-snapper" style="left: 62524px;"></div><div class="infinite-slideshow-snapper" style="left: 62930px;"></div><div class="infinite-slideshow-snapper" style="left: 63336px;"></div><div class="infinite-slideshow-snapper" style="left: 63742px;"></div><div class="infinite-slideshow-snapper" style="left: 64148px;"></div><div class="infinite-slideshow-snapper" style="left: 64554px;"></div><div class="infinite-slideshow-snapper" style="left: 64960px;"></div><div class="infinite-slideshow-snapper" style="left: 65366px;"></div><div class="infinite-slideshow-snapper" style="left: 65772px;"></div><div class="infinite-slideshow-snapper" style="left: 66178px;"></div><div class="infinite-slideshow-snapper" style="left: 66584px;"></div><div class="infinite-slideshow-snapper" style="left: 66990px;"></div><div class="infinite-slideshow-snapper" style="left: 67396px;"></div><div class="infinite-slideshow-snapper" style="left: 67802px;"></div><div class="infinite-slideshow-snapper" style="left: 68208px;"></div><div class="infinite-slideshow-snapper" style="left: 68614px;"></div><div class="infinite-slideshow-snapper" style="left: 69020px;"></div><div class="infinite-slideshow-snapper" style="left: 69426px;"></div><div class="infinite-slideshow-snapper" style="left: 69832px;"></div><div class="infinite-slideshow-snapper" style="left: 70238px;"></div><div class="infinite-slideshow-snapper" style="left: 70644px;"></div><div class="infinite-slideshow-snapper" style="left: 71050px;"></div><div class="infinite-slideshow-snapper" style="left: 71456px;"></div><div class="infinite-slideshow-snapper" style="left: 71862px;"></div><div class="infinite-slideshow-snapper" style="left: 72268px;"></div><div class="infinite-slideshow-snapper" style="left: 72674px;"></div><div class="infinite-slideshow-snapper" style="left: 73080px;"></div><div class="infinite-slideshow-snapper" style="left: 73486px;"></div><div class="infinite-slideshow-snapper" style="left: 73892px;"></div><div class="infinite-slideshow-snapper" style="left: 74298px;"></div><div class="infinite-slideshow-snapper" style="left: 74704px;"></div><div class="infinite-slideshow-snapper" style="left: 75110px;"></div><div class="infinite-slideshow-snapper" style="left: 75516px;"></div><div class="infinite-slideshow-snapper" style="left: 75922px;"></div><div class="infinite-slideshow-snapper" style="left: 76328px;"></div><div class="infinite-slideshow-snapper" style="left: 76734px;"></div><div class="infinite-slideshow-snapper" style="left: 77140px;"></div><div class="infinite-slideshow-snapper" style="left: 77546px;"></div><div class="infinite-slideshow-snapper" style="left: 77952px;"></div><div class="infinite-slideshow-snapper" style="left: 78358px;"></div><div class="infinite-slideshow-snapper" style="left: 78764px;"></div><div class="infinite-slideshow-snapper" style="left: 79170px;"></div><div class="infinite-slideshow-snapper" style="left: 79576px;"></div><div class="infinite-slideshow-snapper" style="left: 79982px;"></div><div class="infinite-slideshow-snapper" style="left: 80388px;"></div><div class="infinite-slideshow-snapper" style="left: 80794px;"></div><div class="infinite-slideshow-snapper" style="left: 81200px;"></div><div class="infinite-slideshow-snapper" style="left: 81606px;"></div><div class="infinite-slideshow-snapper" style="left: 82012px;"></div><div class="infinite-slideshow-snapper" style="left: 82418px;"></div><div class="infinite-slideshow-snapper" style="left: 82824px;"></div><div class="infinite-slideshow-snapper" style="left: 83230px;"></div><div class="infinite-slideshow-snapper" style="left: 83636px;"></div><div class="infinite-slideshow-snapper" style="left: 84042px;"></div><div class="infinite-slideshow-snapper" style="left: 84448px;"></div></div>
+                   </div>
+                   <div class="a-lot-can-happen-cards-label type-18">Mind your business.</div>
+                   <div class="a-lot-can-happen-cards-paging-indicator">
+                       <ul class="paging-indicator" data-change-emmiter-selector=".a-lot-can-happen .infinite-slideshow" data-init="true">
+       <li class=""></li>
+       <li class=""></li>
+       <li class=""></li>
+       <li class="paging-indicator-current"></li>
+       <li class=""></li>
+</ul>
+
+                   </div>
+               </div>
+               <div class="spacer-50"></div>
+           </div>
+       </div>
+       <div class="modern-grid a-lot-can-happen-background">
+           <div class="column-1 m-column-0"></div>
+           <div class="column-10 m-column-6">
+               <img loading="eager" alt="A lot can happen with a little space." srcset="/assets/images/backyard/a-lot-can-happen-portrait/a-lot-can-happen-portrait-1100.jpg 768w, /assets/images/backyard/a-lot-can-happen/a-lot-can-happen-2880.jpg">
+           </div>
+       </div>
+   </div>
+
+   <div class="spacer-100 m-spacer-64"></div>
+
+   <div class="slide bento bento-top">
+       <div class="bento-better-future">
+           <img loading="lazy" src="/assets/images/backyard/bento-sky/bento-sky-2880.jpg" alt="A better future starts in your own Backyard.">
+           <div class="modern-grid">
+               <div class="column-1 m-column-0"></div>
+               <div class="column-3 m-column-6">
+                   <div class="spacer-8 m-spacer-50"></div>
+                   <h1 class="type-48 m-type-36 l-type-30-light">
+                       A better future<br>
+                       starts in your<br>
+                       own Backyard.
+                   </h1>
+                   <div class="spacer-32"></div>
+                   <p class="type-15">
+                       Backyard is designed for a better tomorrow. Thanks to top-tier energy efficiency and optional solar arrays, Backyard cuts your dependence on the grid. Think of it as design with purpose&nbsp;— good for&nbsp;you, great for the&nbsp;planet.
+                   </p>
+                   <div class="spacer-0 m-spacer-32"></div>
+               </div>
+               <div class="column-1 m-column-0"></div>
+               <div class="column-3 m-column-6 bento-better-future-card">
+                   <div class="bento-better-future-card-header bento-better-future-card-header-more-efficient m-type-14">
+                       <svg width="90" height="69" viewBox="0 0 90 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M42.048 62.8528H7.872V62.6608C11.393 59.0472 26.0033 45.0596 31.0735 40.2056C31.2564 40.0305 31.4269 39.8673 31.584 39.7168C40.128 31.4608 42.144 25.8928 42.144 20.6128C42.144 8.90083 34.176 0.548828 21.216 0.548828C8.736 0.548828 0.576 8.51683 0.192 20.6128H7.104C7.104 12.1648 12.672 6.50083 21.216 6.50083C29.952 6.50083 35.616 11.9728 35.616 20.4208C35.616 26.3728 32.64 30.3088 23.712 38.4688C9.888 51.3328 0 61.6048 0 61.6048V68.8048H42.048V62.8528ZM89.9475 64.3368L72.9555 47.3448L89.9475 30.3528L85.9155 26.3208L68.9235 43.4088L51.9315 26.3208L47.9955 30.3528L64.9875 47.3448L47.9955 64.3368L51.9315 68.3688L68.9235 51.2808L85.9155 68.3688L89.9475 64.3368Z" fill="black" style="fill:black;fill:black;fill-opacity:1;"></path>
+                       </svg>
+                       <h2 class="type-24-light m-type-14">
+                           more efficient
+                       </h2>
+                   </div>
+                   <p class="type-15 m-type-14">
+                       Over 2x more energy-efficient than an equivalently-sized home.
+                   </p>
+               </div>
+               <div class="column-3 m-column-6 bento-better-future-card">
+                   <div class="bento-better-future-card-header bento-better-future-card-header-net-grid m-type-14">
+                       <svg width="127" height="70" viewBox="0 0 127 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M26.4085 0.548828C41.0005 0.548828 51.8485 13.7008 51.8485 35.1088C51.8485 56.5168 41.0005 69.6688 26.4085 69.6688C11.8165 69.6688 0.968506 56.5168 0.968506 35.1088C0.968506 13.7008 11.8165 0.548828 26.4085 0.548828ZM26.4085 6.69283C15.5605 6.69283 7.88051 17.1568 7.88051 35.1088C7.88051 42.7888 9.32051 49.0288 11.7205 53.7328L38.4085 12.3568C35.2405 8.70883 31.1125 6.69283 26.4085 6.69283ZM26.4085 63.5248C37.2565 63.5248 44.9365 53.0608 44.9365 35.1088C44.9365 27.7168 43.5925 21.5728 41.2885 16.8688L14.7925 58.2448C17.8645 61.7008 21.8965 63.5248 26.4085 63.5248Z" fill="black" style="fill:black;fill:black;fill-opacity:1;"></path>
+                           <rect x="60.5986" y="26.6589" width="65.6514" height="42.26" rx="5.25" stroke="black" style="stroke:black;stroke:black;stroke-opacity:1;" stroke-width="1.5"></rect>
+                           <path d="M113.632 43.9489C116.224 43.9489 118 45.6769 118 48.7969V56.6689H116.08V49.2529C116.08 46.6609 115 45.7729 113.272 45.7729C111.112 45.7729 109.792 47.4289 109.792 49.5649V56.6689H107.872V38.9089H109.792V45.8209H109.84C110.8 44.5729 112.384 43.9489 113.632 43.9489Z" fill="black" style="fill:black;fill:black;fill-opacity:1;"></path>
+                           <path d="M106.068 39.3889L100.764 56.6689H98.4602L94.3562 42.7729H94.3082L90.2042 56.6689H87.9002L82.5962 39.3889H84.9962L88.9802 53.9089H89.0282L93.4202 39.3889H95.2442L99.6362 53.9089H99.6842L103.764 39.3889H106.068Z" fill="black" style="fill:black;fill:black;fill-opacity:1;"></path>
+                           <path d="M81.7126 44.1889L75.8086 49.9969L82.1206 56.6689H79.2886L73.8166 50.6209H73.7686V56.6689H71.8486V38.9089H73.7686V49.4689H73.8166L78.9286 44.1889H81.7126Z" fill="black" style="fill:black;fill:black;fill-opacity:1;"></path>
+                       </svg>
+                       <h2 class="type-24-light m-type-14">
+                           net grid utilization
+                       </h2>
+                   </div>
+                   <p class="type-15 m-type-14">
+                       As few as 0 kWh drawn from the grid annually (net) with optional solar&nbsp;arrays.
+                   </p>
+               </div>
+           </div>
+       </div>
+   </div>
+
+   <div class="slide bento bento-middle" data-invert="true">
+       <div class="bento-high-performance">
+           <img loading="lazy" srcset="/assets/images/backyard/bento-high-performance-portrait/bento-high-performance-portrait-1125.jpg 768w, /assets/images/backyard/bento-high-performance/bento-high-performance-2880.jpg" alt="High performance prefab">
+           <div class="bento-high-performance-card bento-details-card">
+               <h1 class="type-30-light m-type-18-light">High performance<br class="mobile-hidden"> prefab</h1>
+               <div class="spacer-16 m-spacer-8"></div>
+               <p class="type-15 m-type-14 color-text-60">
+                   Backyard is factory assembled using our best-in-class construction system designed for the&nbsp;long&nbsp;haul.
+               </p>
+               <div class="spacer-50 m-spacer-36"></div>
+               <label class="type-15 m-type-14 color-text-80">
+                   <input type="checkbox">
+                   Details
+                   <div class="bento-details-card-icon">
+                       <div></div>
+                       <div></div>
+                   </div>
+               </label>
+               <ul class="type-15 m-type-14">
+                   <li>Mold, rot, and termite-resistant  cold formed steel frame</li>
+                   <li>Unfading smooth-coated insulated steel cladding</li>
+                   <li>Long-lasting Galvalume®-coated standing seam steel roof</li>
+               </ul>
+           </div>
+       </div>
+   </div>
+
+   <div class="slide bento bento-bottom" data-invert="true">
+       <hr class="bento-bottom-divider mobile-hidden">
+       <div class="bento-air-purification">
+           <img loading="lazy" srcset="/assets/images/backyard/bento-air-purification-portrait/bento-air-purification-portrait-1125.jpg 768w, /assets/images/backyard/air-purification/air-purification-2880.jpg" alt="Deeply integrated air purification">
+           <div class="bento-air-purification-card bento-details-card">
+               <h1 class="type-30-light m-type-18-light">Deeply integrated<br class="mobile-hidden"> air&nbsp;purification</h1>
+               <div class="spacer-16 m-spacer-8"></div>
+               <p class="type-15 m-type-14 color-text-60">
+                   Safe and comfortable year round, even when wildfire smoke, viruses, pollen and&nbsp;dust pollute the&nbsp;air.
+               </p>
+               <div class="spacer-50 m-spacer-36"></div>
+               <label class="type-15 m-type-14 color-text-80">
+                   <input type="checkbox">
+                   Details
+                   <div class="bento-details-card-icon">
+                       <div></div>
+                       <div></div>
+                   </div>
+               </label>
+               <ul class="type-15 m-type-14">
+                   <li>Hospital-grade air filtration</li>
+                   <li>Changes air 3-4× every hour</li>
+               </ul>
+           </div>
+       </div>
+       <div class="bento-net-zero">
+           <img loading="lazy" srcset="/assets/images/backyard/bento-net-zero-portrait/bento-net-zero-portrait-1125.jpg 768w, /assets/images/backyard/net-zero-solar-roof/net-zero-solar-roof-2880.jpg" alt="Net zero solar roof">
+           <div class="bento-net-zero-card bento-details-card">
+               <h1 class="type-30-light m-type-18-light">Net zero<br class="mobile-hidden"> solar&nbsp;roof</h1>
+               <div class="spacer-16 m-spacer-8"></div>
+               <p class="type-15 m-type-14 color-text-60">
+                   Save on energy costs every month and&nbsp;even offset the&nbsp;power consumption of&nbsp;your main&nbsp;home.
+               </p>
+               <div class="spacer-50 m-spacer-36"></div>
+               <label class="type-15 m-type-14 color-text-80">
+                   <input type="checkbox">
+                   Details
+                   <div class="bento-details-card-icon">
+                       <div></div>
+                       <div></div>
+                   </div>
+               </label>
+               <ul class="type-15 m-type-14">
+                   <li>Low to zero monthly electricity costs for Backyard&nbsp;(net)</li>
+                   <li>Reduce your entire home's dependence on&nbsp;the&nbsp;grid</li>
+               </ul>
+           </div>
+       </div>
+   </div>
+
+   <div class="slide configure-now">
+       <div class="spacer-100 m-spacer-72"></div>
+       <div class="modern-grid">
+           <div class="column-1 m-column-0"></div>
+           <div class="column-5 m-column-6">
+               <h1 class="type-48 m-type-30-light l-type-30-light">Available in California.</h1>
+               <h1 class="type-48 m-type-30-light l-type-30-light color-text-40">
+                   Built and installed for<br>
+                   $279k or $1,671/mo.
+                   <a onclick="Calculator.show('both');">
+                       <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <rect x="1.5" y="1.54883" width="26" height="26" rx="13" stroke="black" stroke-opacity="0.4" style="stroke:black;stroke:black;stroke-opacity:0.4;" stroke-width="2"></rect>
+                           <path d="M11.24 18.809H14.0533V14.329H11.24V12.569H16.1333V18.809H19.0933V20.569H11.24V18.809ZM13.6666 9.0623C13.6666 8.72897 13.7867 8.44897 14.04 8.20897C14.28 7.96897 14.6267 7.8623 15.0667 7.8623C15.5067 7.8623 15.8667 7.9823 16.1333 8.20897C16.4 8.44897 16.5333 8.72897 16.5333 9.0623C16.5333 9.39564 16.4 9.68897 16.1333 9.9023C15.8667 10.1156 15.5067 10.2356 15.0667 10.2356C14.6267 10.2356 14.2933 10.129 14.04 9.9023C13.8 9.68897 13.6666 9.40897 13.6666 9.0623Z" fill="black" fill-opacity="0.4"></path>
+                       </svg>
+                   </a>
+               </h1>
+               <div class="spacer-24 m-spacer-16"></div>
+               <a class="type-48 m-type-30-light l-type-30-light" href="/backyard/configure">
+                   Configure now
+                   <svg width="33" height="22" viewBox="0 0 33 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                       <path d="M22.1687 21.427L20.0935 19.3942L27.0812 12.4489H0.5V9.5692H27.0812L20.0512 2.58159L22.1263 0.548828L32.5865 11.0091L22.1687 21.427Z" fill="#0096F7"></path>
+                   </svg>
+               </a>
+               <div class="spacer-24 m-spacer-16"></div>
+               <div class="nobr type-15 m-type-14 l-type-14 color-text-40 configure-now-not-in-ca">
+                   Not in California?
+                   <a class="color-text-60" onclick="Contact.show({ page: 'expand' })">
+                       Tell us where to expand next
+                       <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M0.713212 0.76296C0.428929 1.04724 0.428929 1.50647 0.713212 1.79075L3.54146 4.619L0.713212 7.44724C0.428929 7.73152 0.428929 8.19075 0.713212 8.47503C0.997494 8.75931 1.45672 8.75931 1.741 8.47503L5.08679 5.12925C5.37107 4.84496 5.37107 4.38574 5.08679 4.10146L1.741 0.755671C1.46401 0.478677 0.997494 0.478678 0.713212 0.76296Z" fill="black" fill-opacity="0.6"></path>
+                       </svg>
+                   </a>
+               </div>
+           </div>
+           <img loading="lazy" alt="Backyard one bedroom" width="4000" height="926" src="/assets/images/backyard/front-elevations/onebedroom.frontdoors.solarfull.basebonewhite.roofdarkbronze.front/onebedroom.frontdoors.solarfull.basebonewhite.roofdarkbronze.front-4016.webp">
+       </div>
+       <div class="spacer-24"></div>
+   </div>
+
+   <div class="slide backyard-basement">
+       <div class="spacer-64"></div>
+       <div class="modern-grid">
+   <a class="column-3 m-column-6 doorway-item type-24-light m-type-18-light" href="/backyard/tech-specs">
+       <div class="doorway-item-foreground">
+           <div>Fully featured.</div>
+           Tech <nobr class="nobr">specs <img class="doorway-item-arrow" src="/assets/images/icons/arrow-right-black.svg" width="24" height="16" alt="→" loading="lazy"></nobr>
+       </div>
+       <video loading="lazy" muted="" loop="" playsinline="" preload="none" class="mobile-hidden">
+           <source src="https://customer-rzhtf894oui3z1e3.cloudflarestream.com/e37b2a2c2d203bec63630d5332413f4f/downloads/default.mp4" type="video/mp4">
+       </video>
+       <video loading="lazy" muted="" loop="" playsinline="" preload="none" class="desktop-hidden">
+           <source src="https://customer-rzhtf894oui3z1e3.cloudflarestream.com/c8c0f23b208d585a12304206150d7f75/downloads/default.mp4" type="video/mp4">
+       </video>
+   </a>
+   <a class="column-3 m-column-6 doorway-item type-24-light l-type-18-light m-type-18-light" href="/backyard/configure">
+       <div class="doorway-item-foreground">
+           <div>Make Backyard&nbsp;yours.</div>
+           Configure <nobr class="nobr">in&nbsp;3D&nbsp;<img class="doorway-item-arrow" src="/assets/images/icons/arrow-right-black.svg" width="24" height="16" alt="→" loading="lazy"></nobr>
+       </div>
+       <img class="doorway-item-background" srcset="/assets/images/doorway/configure-portrait/configure-portrait-1200.webp 768w, /assets/images/doorway/configure-landscape/configure-landscape-720.webp" alt="News" loading="lazy" width="315" height="432">
+   </a>
+   <a class="column-3 m-column-6 doorway-item doorway-item-inverted type-24-light m-type-18-light" href="/showrooms">
+       <div class="doorway-item-foreground">
+           <div>Seeing is&nbsp;believing.</div>
+           Find <nobr class="nobr">a&nbsp;showroom <img class="doorway-item-arrow" src="/assets/images/icons/arrow-right-white.svg" width="24" height="16" alt="→" loading="lazy"></nobr>
+       </div>
+       <img class="doorway-item-background" srcset="/assets/images/doorway/showroom-portrait/showroom-portrait-1200.webp 768w, /assets/images/doorway/showroom-landscape/showroom-landscape-720.webp" alt="News" loading="lazy" width="315" height="432">
+   </a>
+   <a class="column-3 m-column-6 doorway-item type-24-light m-type-18-light" href="/developers">
+       <div class="doorway-item-foreground">
+           <div>Backyard Multiunit.</div>
+           For <nobr class="nobr">developers <img class="doorway-item-arrow" src="/assets/images/icons/arrow-right-black.svg" width="24" height="16" alt="→" loading="lazy"></nobr>
+       </div>
+       <img class="doorway-item-background" srcset="/assets/images/doorway/multiunit-portrait/multiunit-portrait-1200.webp 768w, /assets/images/doorway/multiunit-landscape/multiunit-landscape-720.webp" alt="News" loading="lazy" width="315" height="432">
+   </a>
+</div>
+
+       <div class="spacer-120 m-spacer-72"></div>
+       <div class="footer-nav footer-nav-variant-light" data-enabled="true">
+   <div class="modern-grid">
+       <ul class="column-3">
+               <li><a href="/">Samara</a></li>
+               <li><a href="/news">News</a></li>
+               <li><a href="/jobs">Jobs</a></li>
+               <li><a href="/showrooms">Showrooms</a></li>
+               <li><a href="/developers">For developers</a></li>
+       </ul>
+       <ul class="column-3">
+               <li><a href="/backyard">Backyard</a></li>
+               <li><a href="/backyard/configure">Configure</a></li>
+               <li><a href="/backyard/how-it-works">How it works</a></li>
+               <li><a href="/backyard/tech-specs">Tech specs</a></li>
+               <li><a href="/backyard/faq">FAQ</a></li>
+       </ul>
+       <ul class="column-3">
+               <li><div class="m-spacer-24"></div>Social</li>
+               <li><a href="https://instagram.com/meetsamara" target="_blank">Instagram</a></li>
+               <li><a href="https://www.youtube.com/@meetsamara/" target="_blank">YouTube</a></li>
+               <li><a href="https://www.linkedin.com/company/meetsamara" target="_blank">LinkedIn</a></li>
+       </ul>
+
+       <div class="column-3 m-column-6 footer-contact">
+           <div class="m-spacer-32"></div>
+           <div class="m-spacer-16"></div>
+           <div class="type-14">Have questions?</div>
+           <button class="type-14" onclick="Contact.show({ variant: 'default' })">Contact us</button>
+           <div class="spacer-8"></div>
+           <div class="footer-contact-subscription">
+               <div class="type-14">Get updates</div>
+               <div class="type-14 footer-contact-secondary">Drop us your email to learn what’s next.</div>
+               <form class="footer-contact-input" action="/">
+                   <input type="email" class="type-14 m-type-16" required="" name="email" aria-label="Your email" tabindex="-1">
+                   <input tabindex="-1" loading="lazy" type="image" src="/assets/images/icons/chevron-white.svg" alt="Submit">
+                   <div class="loader">
+                       <div></div>
+                       <div></div>
+                       <div></div>
+                   </div>
+               </form>
+               <div class="footer-contact-status">
+                   <div class="type-14 footer-contact-secondary footer-contact-subscription-success-note">
+                       <img loading="lazy" src="/assets/images/icons/checkmark-white.svg" width="12" height="12" alt="Checkmark"> You’ve subscribed to Samara updates.
+                   </div>
+                   <div class="type-14 footer-contact-secondary footer-contact-subscription-failure-note">
+                       Something went wrong.<br><a href="mailto:customercare@samara.com?subject=Site error: joining mailing list">Click here</a> to subscribe via email.
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+   <div class="spacer-32"></div>
+   <div class="modern-grid type-14 footer-legal">
+       <div class="column-9 m-column-6">
+           © 2024 Samara Living Inc.
+           <div class="m-spacer-8"></div>
+       </div>
+       <div class="column-3 m-column-6">
+           <ol class="footnotes">
+               <li>“Net zero” may change for build sites with significant shading.</li>
+           </ol>
+           <a href="https://www.samara.com/privacy-policy">Privacy policy</a>
+           <a href="https://www.samara.com/terms-of-service">Terms of service</a>
+       </div>
+   </div>
+   <div class="m-spacer-16"></div>
+</div>
+
+   </div>
+</div>
+
+
 <section class="section section-home-intro" data-theme-section="light" data-bg-section="light">
    <div class="container wide">
       <div class="row grid centered">
