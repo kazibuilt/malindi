@@ -2,38 +2,31 @@
 
 /* ------------------------- Fonts -------------------------------------------------- */
 
+
 @font-face {
-   font-family: 'ABC Whyte';
-   src:  url('../fonts/ABCWhyte-Light.woff2') format('woff2'), 
-         url('../fonts/ABCWhyte-Light.woff') format('woff'), 
-         url('../fonts/ABCWhyte-Light.ttf') format('ttf'),
-         url('../fonts/ABCWhyte-Light.otf') format('otf');
+   font-family: 'Regola';
+   src:  url('../fonts/regola-light.woff2') format('woff2');
    font-weight: 300;
    font-style: normal;
    font-display: swap;
 }
-
 @font-face {
-   font-family: 'ABC Whyte';
-   src:  url('../fonts/ABCWhyte-Regular.woff2') format('woff2'), 
-         url('../fonts/ABCWhyte-Regular.woff') format('woff'), 
-         url('../fonts/ABCWhyte-Regular.ttf') format('ttf'),
-         url('../fonts/ABCWhyte-Regular.otf') format('otf');
+   font-family: 'Regola';
+   src:  url('../fonts/regola-regular.woff2') format('woff2');
    font-weight: 400;
    font-style: normal;
    font-display: swap;
 }
 
 @font-face {
-   font-family: 'Kaftan Serif';
-   src:  url('../fonts/KaftanSerif-Regular.woff2') format('woff2'), 
-         url('../fonts/KaftanSerif-Regular.woff') format('woff'), 
-         url('../fonts/KaftanSerif-Regular.ttf') format('ttf'),
-         url('../fonts/KaftanSerif-Regular.otf') format('otf');
-   font-weight: 400;
+   font-family: 'Regola';
+   src:  url('../fonts/regola-medium.woff2') format('woff2');
+   font-weight: 500;
    font-style: normal;
    font-display: swap;
 }
+
+
 
 
 /* ------------------------- Lenis -------------------------------------------------- */
@@ -62,7 +55,7 @@ html.lenis {height: auto;}
    --color-dark-rgb: 50, 32, 24;
    --color-dark: rgba(var(--color-dark-rgb), 1);
 
-   --color-light-rgb: 234, 229, 223;
+   --color-light-rgb: 248, 249, 241;
    --color-light: rgba(var(--color-light-rgb), 1);
 
    --color-white-rgb: 248, 246, 244;
@@ -160,7 +153,7 @@ html {
 
 body {
    -webkit-font-smoothing: antialiased;
-   font-family: 'ABC Whyte', sans-serif;
+   font-family: 'Regola', sans-serif;
    color: var(--color-text);
    line-height: 1.5;
    font-weight: 300;
@@ -230,7 +223,7 @@ h1, h2, h3, h4, h5, h6, p, a, li, ul, ol, span, strong, em, figcaption  {padding
 
 h1,
 h2.big {
-   font-family: 'Kaftan Serif', serif;
+   font-family: 'Regola', serif;
    font-weight: 400;
    font-size: calc(var(--title-size) * 0.775);
    line-height: 1.2;
@@ -238,7 +231,7 @@ h2.big {
 }
 
 h2 {
-   font-family: 'Kaftan Serif', serif;
+   font-family: 'Regola', serif;
    font-weight: 400;
    font-size: calc(var(--title-size) * 0.55);
    line-height: 1.2;
@@ -246,7 +239,7 @@ h2 {
 }
 
 h3 {
-   font-family: 'Kaftan Serif', serif;
+   font-family: 'Regola', serif;
    font-weight: 400;
    font-size: calc(var(--title-size) * 0.4);
    line-height: 1.2;
@@ -258,7 +251,7 @@ h3.small {
 }
 
 h4 {
-   font-family: 'Kaftan Serif', serif;
+   font-family: 'Regola', serif;
    font-weight: 400;
    font-size: calc(var(--title-size) * 0.275);
    line-height: 1.2;
