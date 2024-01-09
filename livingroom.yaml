@@ -1,0 +1,29 @@
+esphome:
+  name: radar
+
+esp32:
+  board: nodemcu-32s
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: ""
+
+ota:
+  password: ""
+
+wifi:
+  ssid: "TP-Link_6BEB"
+  password: "10583210"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Radar Fallback Hotspot"
+    password: "vvrCphlaXhEK"
+
+captive_portal:
+    
