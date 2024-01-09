@@ -1381,6 +1381,7 @@ main {
 .section-home-intro .col-images-left .col-row:nth-child(2) figure,
 .section-home-intro .col-images-right .col-row:nth-child(1) figure {
    width: 80%;
+   border-radius: 12px;
 }
 
 .section-home-intro .col-images-right .col-row:nth-child(1) {
@@ -1396,12 +1397,15 @@ main {
 .section-home-intro .col-images-left .col-row:nth-child(1) figure,
 .section-home-intro .col-images-right .col-row:nth-child(2) figure {
    width: 40%;
+   border-radius: 6px;
 }
 
 .section-home-intro .styled-figure {
    width: 100%;
    position: relative;
    overflow: hidden;
+   box-shadow: 0 4px 4px 0 rgba(0,0,0,.2);
+   
 }
 
 @media screen and (max-width: 1024px) {
@@ -2040,4 +2044,379 @@ main {
    width: 100%;
    background-color: var(--color-border);
    height: 1px;
+}
+
+
+.spacer-0 {
+   height: 0
+}
+
+.spacer-4 {
+   height: 4px
+}
+
+.spacer-8 {
+   height: 8px
+}
+
+.spacer-12 {
+   height: 12px
+}
+
+.spacer-16 {
+   height: 16px
+}
+
+.spacer-24 {
+   height: 24px
+}
+
+.spacer-32 {
+   height: 32px
+}
+
+.spacer-36 {
+   height: 36px
+}
+
+.spacer-50 {
+   height: 50px
+}
+
+.spacer-64 {
+   height: 64px
+}
+
+.spacer-72 {
+   height: 72px
+}
+
+.spacer-80 {
+   height: 80px
+}
+
+.spacer-100 {
+   height: 100px
+}
+
+.spacer-120 {
+   height: 120px
+}
+
+.spacer-150 {
+   height: 150px
+}
+
+
+
+
+h1,h2,h3,h4,h5,h6 {
+   margin: 0;
+   padding: 0;
+   font-family: regola-light,sans-serif!important;
+   color: black;
+}
+
+.prop-nums {
+   font-feature-settings: "pnum" on,"onum" on
+}
+
+.mono-nums {
+   font-variant-numeric: lining-nums tabular-nums slashed-zero
+}
+
+.alt {
+   font-feature-settings: "ss01" on
+}
+
+.type-center {
+   text-align: center
+}
+
+.type-120 {
+   font-size: clamp(96px, 8.3vw, 120px)!important;
+   line-height: 100%!important;
+   font-family: regola-light,sans-serif!important;
+   letter-spacing: -.04em!important
+}
+
+.type-96 {
+   font-size: clamp(72px, 6.67vw, 120px)!important;
+   line-height: 110%!important;
+   font-family: regola-light,sans-serif!important;
+   letter-spacing: -.04em!important
+}
+
+.type-72 {
+   font-size: clamp(64px, 5vw, 72px)!important;
+   line-height: 110%!important;
+   font-family: regola-light,sans-serif!important;
+   letter-spacing: -.04em!important
+}
+
+.type-60 {
+   font-size: clamp(54px, 4.16vw, 60px)!important;
+   line-height: 110%!important;
+   font-family: regola-light,sans-serif!important;
+   letter-spacing: -.04em!important
+}
+
+.type-48 {
+   font-size: clamp(42px, 3.3vw, 48px)!important;
+   line-height: 110%!important;
+   font-family: regola-light,sans-serif!important;
+   letter-spacing: -.04em!important
+}
+
+.type-42 {
+   font-size: clamp(36px, 3vw, 48px)!important;
+   line-height: 110%!important;
+   font-family: regola-light,sans-serif!important;
+   letter-spacing: -.04em!important
+}
+
+.type-36 {
+   font-size: clamp(30px, 2.9vw, 36px)!important;
+   line-height: 117%!important;
+   font-family: regola-light,sans-serif!important;
+   letter-spacing: -.02em!important
+}
+
+.type-30 {
+   font-size: clamp(26px, 2vw, 30px)!important;
+   line-height: 120%!important;
+   font-family: regola-book,sans-serif!important
+}
+
+.type-30-light {
+   font-size: clamp(26px, 2vw, 30px)!important;
+   line-height: 120%!important;
+   font-family: regola-light,sans-serif!important;
+   letter-spacing: -.02em!important
+}
+
+.type-24 {
+   font-size: clamp(21px, 1.6vw, 24px)!important;
+   line-height: 125%!important;
+   font-family: regola-book,sans-serif!important
+}
+
+.type-24-light {
+   font-size: clamp(21px, 1.6vw, 26px)!important;
+   line-height: 125%!important;
+   font-family: regola-light,sans-serif!important;
+   letter-spacing: 0!important
+}
+
+.type-18 {
+   font-size: clamp(16px, 1.25vw, 18px)!important;
+   line-height: 133%!important;
+   font-family: regola-book,sans-serif!important
+}
+
+.type-15 {
+   font-size: 15px!important;
+   line-height: 140%!important;
+   font-family: regola-book,sans-serif!important
+}
+
+.type-14 {
+   font-size: 14px!important;
+   line-height: 100%!important;
+   font-family: regola-book,sans-serif!important
+}
+
+.type-12 {
+   font-size: 12px!important;
+   line-height: 100%!important;
+   font-family: regola-book,sans-serif!important
+}
+
+.type-caps {
+   font-family: regola-book,sans-serif!important;
+   letter-spacing: .04em;
+   text-transform: uppercase
+}
+
+@media (max-width: 768px) {
+   .m-spacer-0 {
+       display:none
+   }
+
+   .m-spacer-8 {
+       height: 8px
+   }
+
+   .m-spacer-16 {
+       height: 16px
+   }
+
+   .m-spacer-24 {
+       height: 24px
+   }
+
+   .m-spacer-32 {
+       height: 32px
+   }
+
+   .m-spacer-36 {
+       height: 36px
+   }
+
+   .m-spacer-50 {
+       height: 50px
+   }
+
+   .m-spacer-64 {
+       height: 64px
+   }
+
+   .m-spacer-72 {
+       height: 72px
+   }
+
+   .m-spacer-100 {
+       height: 100px
+   }
+
+   .m-spacer-150 {
+       height: 150px
+   }
+
+   .m-type-96 {
+       font-size: clamp(72px, 25.6vw, 96px)!important;
+       line-height: 100%!important;
+       font-family: regola-light,sans-serif!important;
+       letter-spacing: -.04em!important
+   }
+
+   .m-type-60 {
+       font-size: clamp(54px, 4.16vw, 68px)!important;
+       line-height: 110%!important;
+       font-family: regola-light,sans-serif!important;
+       letter-spacing: -.04em!important
+   }
+
+   .m-type-48 {
+       font-size: clamp(42px, 12.8vw, 48px)!important;
+       line-height: 110%!important;
+       font-family: regola-light,sans-serif!important;
+       letter-spacing: -.04em!important
+   }
+
+   .m-type-42 {
+       font-size: clamp(36px, 11.2vw, 42px)!important;
+       line-height: 110%!important;
+       font-family: regola-light,sans-serif!important;
+       letter-spacing: -.04em!important
+   }
+
+   .m-type-36 {
+       font-size: clamp(32px, 9.6vw, 36px)!important;
+       line-height: 117%!important;
+       font-family: regola-light,sans-serif!important;
+       letter-spacing: -.04em!important
+   }
+
+   .m-type-30-light {
+       font-size: clamp(26px, 2vw, 30px)!important;
+       line-height: 120%!important;
+       font-family: regola-light,sans-serif!important;
+       letter-spacing: -.02em!important
+   }
+
+   .m-type-24 {
+       font-size: clamp(21px, 6.4vw, 24px)!important;
+       line-height: 125%!important;
+       font-family: regola-book,sans-serif!important;
+       letter-spacing: 0!important
+   }
+
+   .m-type-24-light {
+       font-size: clamp(21px, 6.4vw, 24px)!important;
+       line-height: 125%!important;
+       font-family: regola-light,sans-serif!important;
+       letter-spacing: -.01em!important
+   }
+
+   .m-type-21-light {
+       font-size: clamp(18px, 5.6vw, 21px)!important;
+       line-height: 125%!important;
+       font-family: regola-light,sans-serif!important;
+       letter-spacing: -.01em!important
+   }
+
+   .m-type-18 {
+       font-size: clamp(16px, 4.8vw, 18px)!important;
+       line-height: 133%!important;
+       font-family: regola-book,sans-serif!important;
+       letter-spacing: 0!important
+   }
+
+   .m-type-18-light {
+       font-size: clamp(16px, 4.8vw, 18px)!important;
+       line-height: 133%!important;
+       font-family: regola-light,sans-serif!important;
+       letter-spacing: 0!important
+   }
+
+   .m-type-15 {
+       font-size: 15px!important;
+       line-height: 140%!important;
+       font-family: regola-book,sans-serif!important;
+       letter-spacing: 0!important
+   }
+
+   .m-type-16 {
+       font-size: 16px!important;
+       line-height: 133%!important;
+       font-family: regola-book,sans-serif!important;
+       letter-spacing: 0!important
+   }
+
+   .m-type-14 {
+       font-size: 14px!important;
+       line-height: 140%!important;
+       font-family: regola-book,sans-serif!important;
+       letter-spacing: 0!important
+   }
+
+   .m-type-12 {
+       font-size: 12px!important;
+       line-height: 140%!important;
+       font-family: regola-book,sans-serif!important;
+       letter-spacing: 0!important
+   }
+}
+
+.rounded-4 {
+   border-radius: 4px
+}
+
+.rounded-6 {
+   border-radius: 6px
+}
+
+.drop-shadow {
+   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2)
+}
+
+@media (max-width: 768px) {
+   .m-rounded-0 {
+       border-radius:0
+   }
+
+   .drop-shadow {
+       box-shadow: 0 .5px 1.5px 0 rgba(0,0,0,.12)
+   }
+
+   .mobile-hidden {
+       display: none
+   }
+}
+
+@media (min-width: 768px) {
+   .desktop-hidden {
+       display:none
+   }
 }
