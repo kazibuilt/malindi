@@ -171,10 +171,10 @@ function initLoaderHome() {
       pageTransitionOut();
    }, null, 2.4);
 
-   tl.call(function() {
+/*    tl.call(function() {
       initGetTripadvisorNumber();
    }, null, 2);
-
+ */
 }
 
 // Animation - Page Loader
@@ -225,10 +225,10 @@ function initLoader() {
       pageTransitionOut();
    }, null, 0.7);
 
-   tl.call(function() {
+ /*   tl.call(function() {
       initGetTripadvisorNumber();
    }, null, 2);
-
+ */
 }
 
 // Animation - Page Leave
@@ -508,7 +508,7 @@ function delay(n) {
  * Fire all scripts on page load
  */
 function initScript() {
-   initUpdateTripadvisorNumber();
+   /* initUpdateTripadvisorNumber(); */
    initCheckWindowHeight();
    initBasicFunctions();
    initLazyLoad();
@@ -522,9 +522,9 @@ function initScript() {
    initCustomCursor();
 }
 
-/**
+/* 
  * Update number Tripadvisor
- */
+ 
 let tripadvisorReviews = '1,230 reviews';
 let tripadvisorStars = 'bubble_50';
 
@@ -544,7 +544,7 @@ function initGetTripadvisorNumber() {
    $('.tripadvisor-reviews-count').text(tripadvisorElementReviews);
    $('.tripadvisor-reviews-stars').attr('data-tripadvisor-stars', tripadvisorElementStars);
 }
-
+ */
 /**
  * Barba Update Links outside Main on page Transition
  */

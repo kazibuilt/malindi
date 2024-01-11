@@ -1561,6 +1561,12 @@ main {
    }
 }
 
+
+.card-small {
+   border-radius: 12px;
+   box-shadow: 0 4px 4px 0 rgba(41, 41, 41, 0.2);
+}
+
 /* ------------------------- Section - Packages Header -------------------------------------------------- */
 
 .section-packages-header {

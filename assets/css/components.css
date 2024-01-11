@@ -756,10 +756,12 @@
 
 .swiper-slider-group[data-swiper-slider-type="stay"] .row-back {
    position: relative;
-   width: 100%;
+   width: 95%;
    overflow: hidden;
    background-color: var(--color-black);
    align-items: center;
+   margin-right:auto;
+   margin-left: auto;
 }
 
 .swiper-slider-group[data-swiper-slider-type="stay"] .row-slider-card {
