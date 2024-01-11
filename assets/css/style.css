@@ -1317,9 +1317,10 @@ main {
 
 .section-home-header .row-title {
    
-   padding-top: var(--section-padding);
+   padding-top: 70vh;
    align-items: flex-end;
    padding-bottom: calc(var(--gap) * 3);
+
 }
 
 .section-home-header .row-btn {
