@@ -900,9 +900,11 @@
 .swiper-slider-group[data-swiper-slider-type="stay"] .swiper-carousel-text {
    position: relative;
    z-index: 3;
-   width: 100%;
+   width: 95%;
    padding: calc(10vh + calc((var(--card-width) * 1.333333) * 0.666)) 0;
    text-align: center;
+   margin-right:auto;
+   margin-left:auto;
 }
 
 @media (hover: none) { 
