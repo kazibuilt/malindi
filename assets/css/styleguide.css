@@ -764,6 +764,21 @@ video.overlay {
    
    color: white;
 }
+.btn .btn-click-grey {
+   cursor: pointer;
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-sizing: border-box;
+   box-shadow: 0 0.5px 2px 0 rgba(0,0,0,.12);
+   border-radius: 12px;
+   background: var(--color-black-4);
+   padding: 14px;
+   
+   color: var(--color-blue);
+}
+
 
 .btn .btn-content {
    position: relative;
@@ -796,6 +811,21 @@ video.overlay {
    width: 100%;
    padding: 0 calc(var(--copy-size-m) * 0.75);
    margin-top: -0.05em;
+   white-space: nowrap;
+   text-shadow: 0px calc(var(--btn-shadow-distance) * 1.5) transparent;
+   transform: translateY(0em) rotate(0.001deg);
+   transition: text-shadow var(--animation-smooth);
+   line-height: 1.1;
+}
+
+.btn .btn-content-blue span {
+   font-size: var(--copy-size-m);
+   color: var(--color-blue);
+   font-weight: 400;
+   text-align: center;
+   width: 100%;
+   padding: 0 calc(var(--copy-size-m) * 0.75);
+  
    white-space: nowrap;
    text-shadow: 0px calc(var(--btn-shadow-distance) * 1.5) transparent;
    transform: translateY(0em) rotate(0.001deg);

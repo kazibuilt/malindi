@@ -744,11 +744,11 @@ main {
 
 .side-nav .row-links-primary ul .nav-link span,
 .section-footer .col-links-primary ul .nav-link span {
-   font-family: 'Kaftan Serif', serif;
+   font-family: 'regola-medium';
    font-weight: 400;
    font-size: calc(var(--title-size) * 0.4);
    line-height: 1.2;
-   color: var(--color-dark);
+   color: rgb(14, 14, 14);
 }
 
 .side-nav .row-links-primary .nav-link-click::before,
